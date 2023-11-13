@@ -1,2 +1,2 @@
 # Projeto3Final
-O Projeto 3 Tarefas tem como objetivo a demostração dos conhecimenetos da linguagem C de programação obtidos através das aulas de Desenvolvimento de Algoritimos. 
+O Projeto 3 Tarefas tem como objetivo a demostração dos conhecimenetos da linguagem C de programação obtidos através das aulas de Desenvolvimento de Algoritimos. No projeto foi preciso criar um sistema de gerenciamento de tarefas do usuário, no qual, a parte anterior do projeto, nós criamos as partes de cadastrar, salvar, excluir e listar tarefas e agora na ultima parte, houve a implementação de operações como, filtrar tarefas, fazer alterações e exportá-las para um arquivo de texto. 
