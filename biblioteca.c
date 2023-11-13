@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -61,7 +57,7 @@ int Listar_Tarefas(STarefas tarefas[], int numero_de_tarefas) {
         }
 
         return numero_de_tarefas;
-=======
+
 void Deletar_Tarefa(STarefas tarefas[], int *numero_de_tarefas, char cate[], int priori) {
     int localizar_tarefa = 0;
     int i;
@@ -109,8 +105,6 @@ int Carregar_Tarefas(STarefas tarefas[]) {
     return numero_de_tarefas;
 }
 
-=======
->>>>>>> Filtros
 void FiltrarTarefas(STarefas tarefas[], int numero_de_tarefas) {
     int escolha;
     printf("Escolha uma opcao de filtro: ");
@@ -136,11 +130,10 @@ void FiltrarTarefas(STarefas tarefas[], int numero_de_tarefas) {
         default:
             printf("Esta opcao nao eh valida.\n");
             break;
-<<<<<<< HEAD
->>>>>>> DeletarSalvareCarregar
+
     }
 }
-=======
+
     }
 }
 
@@ -267,8 +260,6 @@ void FiltrarPorPrioridadeECategoria(STarefas tarefas[], int numero_de_tarefas) {
         printf("---------------------------------------------------------\n");
     }
 }
->>>>>>> Filtros
-=======
 
 int AlterarTarefas(STarefas tarefas[], int numero_de_tarefas) {
     if (numero_de_tarefas == 0) {
@@ -351,8 +342,7 @@ int AlterarTarefas(STarefas tarefas[], int numero_de_tarefas) {
     Salvar_Tarefas(tarefas, numero_de_tarefas);
     return numero_de_tarefas;
 }
->>>>>>> Alterar
-=======
+
 void ExportarTarefasPorPrioridade(STarefas tarefas[], int numero_de_tarefas, int prioridade) {
     FILE *arquivo;
     arquivo = fopen("tarefas_por_prioridade.txt", "w");
@@ -445,4 +435,4 @@ void ExportarTarefasPorPrioridadeECategoria(STarefas tarefas[], int numero_de_ta
     fclose(arquivo);
     printf("As tarefas por prioridade e categoria forma exportadas com sucesso\n");
 }
->>>>>>> Exportar
+

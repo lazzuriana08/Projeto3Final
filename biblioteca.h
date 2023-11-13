@@ -1,8 +1,7 @@
 
 #ifndef PROJETO3FINAL_BIBLIOTECA_H
 #define PROJETO3FINAL_BIBLIOTECA_H
-<<<<<<< HEAD
-=======
+
 typedef struct {
     int prioridade;
     char descricao[300];
@@ -33,6 +32,6 @@ int AlterarTarefas(STarefas tarefas[], int numero_de_tarefas);
 void ExportarTarefasPorPrioridade(STarefas tarefas[], int numero_de_tarefas, int prioridade);
 void ExportarTarefasPorCategoria(STarefas tarefas[], int numero_de_tarefas, char categoria[]);
 void ExportarTarefasPorPrioridadeECategoria(STarefas tarefas[], int numero_de_tarefas, int prioridade, char categoria[]);
->>>>>>> arquivo.h
+
 
 #endif //PROJETO3FINAL_BIBLIOTECA_H
