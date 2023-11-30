@@ -34,4 +34,7 @@ void ExportarTarefasPorCategoria(STarefas tarefas[], int numero_de_tarefas, char
 void ExportarTarefasPorPrioridadeECategoria(STarefas tarefas[], int numero_de_tarefas, int prioridade, char categoria[]);
 
 
+void clear_buffer();
+
+
 #endif //PROJETO3FINAL_BIBLIOTECA_H
