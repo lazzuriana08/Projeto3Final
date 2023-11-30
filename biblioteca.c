@@ -57,6 +57,8 @@ int Listar_Tarefas(STarefas tarefas[], int numero_de_tarefas) {
         }
 
         return numero_de_tarefas;
+    }
+}
 
 void Deletar_Tarefa(STarefas tarefas[], int *numero_de_tarefas, char cate[], int priori) {
     int localizar_tarefa = 0;
@@ -130,10 +132,6 @@ void FiltrarTarefas(STarefas tarefas[], int numero_de_tarefas) {
         default:
             printf("Esta opcao nao eh valida.\n");
             break;
-
-    }
-}
-
     }
 }
 
@@ -435,4 +433,3 @@ void ExportarTarefasPorPrioridadeECategoria(STarefas tarefas[], int numero_de_ta
     fclose(arquivo);
     printf("As tarefas por prioridade e categoria forma exportadas com sucesso\n");
 }
-
